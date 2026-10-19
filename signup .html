@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,31 +10,34 @@
 
 <body>
 
-<section class="hero">
+<div class="container">
 
-<h2>Create Your Account</h2>
+<h1>Create Account</h1>
 
-<p>Join WizNet India today.</p>
+<input id="name" type="text" placeholder="Full Name">
 
-<form>
+<input id="email" type="email" placeholder="Email Address">
 
-<input type="text" placeholder="Full Name" required><br><br>
+<input id="password" type="password" placeholder="Password">
 
-<input type="email" placeholder="Email Address" required><br><br>
+<button id="signupBtn">
+Create Account
+</button>
 
-<input type="password" placeholder="Password" required><br><br>
+<br><br>
 
-<button type="submit">Create Account</button>
+<button id="googleBtn">
+Continue with Google
+</button>
 
-</form>
+<p>
+Already have an account?
+<a href="login.html">Login</a>
+</p>
 
-<br>
+</div>
 
-<p>Already have an account?</p>
-
-<a href="login.html">Log In</a>
-
-</section>
+<script type="module" src="auth.js"></script>
 
 </body>
 </html>
